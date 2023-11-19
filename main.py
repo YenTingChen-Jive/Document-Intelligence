@@ -33,8 +33,6 @@ class speech_recognition():
             Text = "無法翻譯{0}".format(e)
             return Text
 
-list_microphones()
-
 class pdf2text():
     def __init__(self):
         pass
