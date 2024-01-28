@@ -36,9 +36,6 @@ def record_speech():
     try:
         Text = recognizer.recognize_google(audio, language="zh-TW")     
               ##將剛說的話轉成  zh-TW 繁體中文 的 字串
-              ## recognize_google 指得是使用 google 的api 
-              ## 也就是用google 網站看到的語音辨識啦~~
-              ## 雖然有其他選擇  但人家是大公司哩 當然優先用他的囉
         print("You said:", Text)
         return Text
     except recognizer.UnknowValueError:
@@ -179,11 +176,11 @@ def main():
         if matching_tables:
             print("Closest Table Title:", matching_tables[0])
             print("Closest Table Text:", matching_tables[1])
-            # format_and_output_tables(matching_tables)
+            format_and_output_tables(matching_tables)
             # Convert information to speech
-            # text_to_speech("I found some relevant information in the database.")
+            text_to_speech("I found some relevant information in the database.")
             # Speak out the information
-            # speak_out()
+            speak_out()
 
 if __name__ == "__main__":
     main()
