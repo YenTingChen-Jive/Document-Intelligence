@@ -1,4 +1,9 @@
-# Stage-A Document Intelligence
+# Document Intelligence
+
+## Abstract
+Collaborated with the Financial Supervisory Commission to develop an generative interactive AI for retrieving data from annual financial reports for major companies based on user queries.
+
+NOTE: This research is in its initial stage (Stage A), awaiting further development toward a larger scaled system by others.
 
 ## Installation
 
