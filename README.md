@@ -5,6 +5,7 @@ Collaborated with the Financial Supervisory Commission to develop an generative 
 
 NOTE: This research is in its initial stage (Stage A), awaiting further development toward a larger scaled system by others.
 
+
 ## Installation
 
 ```bash
